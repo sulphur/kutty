@@ -84,8 +84,7 @@ module.exports = Button = (styles) => ({
     color: "rgba(255, 255, 255, var(--tw-text-opacity))",
   },
   ".btn-secondary, .prose a.btn-secondary": {
-    "--tw-bg-opacity": "1",
-    backgroundColor: "rgba(100, 116, 139, var(--tw-bg-opacity))",
+    "@apply bg-secondary hover:bg-secondary-dark": {},
     "--tw-text-opacity": "1",
     color: "rgba(255, 255, 255, var(--tw-text-opacity))",
   },
