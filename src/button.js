@@ -164,16 +164,10 @@ module.exports = Button = (styles) => ({
     "@apply bg-primary-light text-primary hover:bg-primary hover:text-primary-light": {},
   },
   ".btn-light-secondary, .prose a.btn-light-secondary": {
-    "--tw-bg-opacity": "1",
-    backgroundColor: "rgba(226, 232, 240, var(--tw-bg-opacity))",
-    "--tw-text-opacity": "1",
-    color: "rgba(51, 65, 85, var(--tw-text-opacity))",
+    "@apply bg-secondary-light text-secondary hover:bg-secondary hover:text-secondary-light": {},
   },
   ".btn-light-secondary:hover, .prose a.btn-light-secondary:hover": {
-    "--tw-bg-opacity": "1",
-    backgroundColor: "rgba(203, 213, 225, var(--tw-bg-opacity))",
-    "--tw-text-opacity": "1",
-    color: "rgba(15, 23, 42, var(--tw-text-opacity))",
+    "@apply bg-secondary-dark text-secondary hover:bg-secondary-light hover:text-secondary-dark": {},
   },
   ".btn-light-success, .prose a.btn-light-success": {
     "--tw-bg-opacity": "1",
